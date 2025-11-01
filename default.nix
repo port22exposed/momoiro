@@ -1,5 +1,5 @@
 { pkgs, lib, ... }: let
-  packages = pkgs.beam.packagesWith pkgs.beam.interpreters.elixir;
+  packages = pkgs.beam.packagesWith pkgs.beam.interpreters.erlang;
 
   pname = "momoiro";
   version = "0.0.1";
