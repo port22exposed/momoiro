@@ -10,8 +10,4 @@ mkShellNoCC {
   inputsFrom = [ defaultPackage ];
 
   packages = [ ];
-
-  shellHook = ''
-    echo "Hello, world!"
-  '';
 }
